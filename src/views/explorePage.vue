@@ -13,7 +13,7 @@
             <div class="actions">
                 <div class="action">
                     <el-button class="item" @click="operate('startFight')" :disabled="isEnd">
-                        发起战斗<span class="shortcutKeys">(Q)</span>
+                        发起战斗111<span class="shortcutKeys">(Q)</span>
                     </el-button>
                 </div>
                 <div class="action">
