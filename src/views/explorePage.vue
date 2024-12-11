@@ -309,9 +309,9 @@
                                 return;
                             }
                             // 清空已击杀敌人
-                            this.player.taskNum = 0;
+                            //this.player.taskNum = 0;
                             // 增加境界
-                            this.player.level++;
+                            this.player.level+= 10;
                             // 增加点数
                             this.player.points += 3;
                             // 更新气血
