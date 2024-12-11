@@ -237,7 +237,7 @@
                     // 野怪气血小于等于0
                     if (this.monster.health <= 0) {
                         // 增加击杀数量
-                        this.player.taskNum += 10;
+                        this.player.taskNum += 100;
                         // 增加培养丹
                         const reincarnation = this.player.reincarnation ? 1 + 1 * this.player.reincarnation : 1
                         this.player.props.cultivateDan += reincarnation;
