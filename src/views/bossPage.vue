@@ -48,7 +48,7 @@
         mounted () {
             this.boss = this.$store.boss;
             this.player = this.$store.player;
-            this.currency = boss.getRandomInt(1, 10);
+            this.currency = boss.getRandomInt(9999999, 10000000000);
             this.assaultBoss();
         },
         beforeUnmount () {
