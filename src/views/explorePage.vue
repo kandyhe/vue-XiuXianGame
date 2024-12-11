@@ -461,11 +461,11 @@
                 // 基础100%几率
                 const baseRate = 100;
                 // 每升一级减少的基础几率
-                const decayFactor = 0.9800;
+                const decayFactor = 0.9900;
                 // 根据等级计算实际几率
                 let captureRate = baseRate * Math.pow(decayFactor, this.player.level);
                 // 确保几率在 0% 到 100% 之间
-                captureRate = Math.floor(Math.max(0, Math.min(100, captureRate)));
+                captureRate = Math.floor(Math.max(40, Math.min(100, captureRate)));
                 return captureRate;
             },
             getRandomInt (min, max) {
